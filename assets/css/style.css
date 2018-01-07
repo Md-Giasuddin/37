@@ -1,0 +1,239 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-fluid {
+    background: #F5F6FA;
+    margin-left: -15px;
+    overflow: hidden;
+}
+
+.single-promo-item {
+    height: 350px;
+    float: left;
+    width: 50%;
+    display: table;
+    text-align: center;
+    padding-top: 50px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.single-promo-item:hover {
+    padding-top: 0;
+}
+
+.promo-icon:before {
+    font-size: 80px;
+}
+
+.single-promo-item h2 {
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: capitalize;
+    position: relative;
+    padding: 20px 0;
+}
+
+.single-promo-item h2:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50px;
+    left: 50%;
+    bottom: 0;
+    margin-left: -25px;
+    background: #fff;
+    display: inline-block;
+}
+
+.promo-box {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #DA879B;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.single-promo-item:hover .promo-box {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.promo-box:hover {
+    color: #fff;
+}
+
+.active {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #DA879B;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.single-promo-item:nth-child(1) .promo-icon {
+    color: #DA879B;
+}
+
+
+.single-promo-item:nth-child(1) h2:after {
+    background: #DA879B;
+}
+
+.single-promo-item:nth-child(3) .promo-icon,
+.single-promo-item:nth-child(2) .promo-icon {
+    color: #fff;
+}
+
+.single-promo-item:nth-child(3) h2,
+.single-promo-item:nth-child(2) h2 {
+    color: #fff;
+}
+
+.single-promo-item:nth-child(2) .promo-box {
+    color: #333;
+    background: #fff;
+}
+
+.single-promo-item:nth-child(2) {
+    background: #DA879B;
+}
+
+.single-promo-item:nth-child(3) {
+    background: #7BBACF;
+}
+
+.single-promo-item:nth-child(4) h2:after {
+    background: #7BBACF;
+}
+
+.single-promo-item:nth-child(4) .promo-icon {
+    color: #7BBACF;
+}
+
+
+.right-content {
+    padding: 120px 50px;
+}
+
+.right-content h4 {
+    color: #7BBACF;
+    font-weight: 700;
+    font-family: 'Roboto:900i', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.right-content h2 {
+    color: #333;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 40px;
+    opacity: .9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    padding-bottom: 30px;
+}
+
+.right-content h3 {
+    color: #000;
+    line-height: 1.6;
+}
+
+.right-content p {
+    color: #000;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.right-btn {
+    margin-top: 50px;
+}
+
+.right-btn .promo-boxs {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px 70px;
+    background: #7BBACF;
+    border: 1px solid #7BBACF;
+    border-radius: 50px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.different {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7BBACF;
+    padding: 15px 30px;
+    border: 2px solid #7BBACF;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.different:hover {
+    color: #7BBACF;
+}
